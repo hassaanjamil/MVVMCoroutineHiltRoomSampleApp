@@ -1,4 +1,4 @@
-package com.mindorks.example.coroutines.data.api
+package com.example.mvvmcoroutinesroomhiltsample.data.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

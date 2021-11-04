@@ -1,6 +1,8 @@
-package com.mindorks.example.coroutines.data.api
+package com.example.mvvmcoroutinesroomhiltsample.data.api
 
-class ApiHelperImpl(private val apiService: ApiService) : ApiHelper {
+import javax.inject.Inject
+
+class ApiHelperImpl @Inject constructor(private val apiService: ApiService) : ApiHelper {
 
     override suspend fun getUsers() = apiService.getUsers()
 

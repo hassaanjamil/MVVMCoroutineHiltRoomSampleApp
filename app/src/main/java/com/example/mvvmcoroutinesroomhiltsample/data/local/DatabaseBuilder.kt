@@ -1,4 +1,4 @@
-package com.mindorks.example.coroutines.data.local
+package com.example.mvvmcoroutinesroomhiltsample.data.local
 
 import android.content.Context
 import androidx.room.Room

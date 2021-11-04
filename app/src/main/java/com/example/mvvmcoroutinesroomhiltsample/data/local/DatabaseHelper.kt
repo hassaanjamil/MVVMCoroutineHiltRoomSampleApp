@@ -1,6 +1,6 @@
-package com.mindorks.example.coroutines.data.local
+package com.example.mvvmcoroutinesroomhiltsample.data.local
 
-import com.mindorks.example.coroutines.data.local.entity.User
+import com.example.mvvmcoroutinesroomhiltsample.data.local.entity.User
 
 interface DatabaseHelper {
 

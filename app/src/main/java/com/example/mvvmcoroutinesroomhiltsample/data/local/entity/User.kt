@@ -1,4 +1,4 @@
-package com.mindorks.example.coroutines.data.local.entity
+package com.example.mvvmcoroutinesroomhiltsample.data.local.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

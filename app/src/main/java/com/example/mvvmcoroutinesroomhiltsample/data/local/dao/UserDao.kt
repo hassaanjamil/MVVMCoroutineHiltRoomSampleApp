@@ -1,10 +1,10 @@
-package com.mindorks.example.coroutines.data.local.dao
+package com.example.mvvmcoroutinesroomhiltsample.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import com.mindorks.example.coroutines.data.local.entity.User
+import com.example.mvvmcoroutinesroomhiltsample.data.local.entity.User
 
 @Dao
 interface UserDao {

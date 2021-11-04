@@ -1,4 +1,4 @@
-package com.mindorks.example.coroutines.data.api.model
+package com.example.mvvmcoroutinesroomhiltsample.data.model
 
 import com.google.gson.annotations.SerializedName
 

@@ -1,8 +1,10 @@
-package com.mindorks.example.coroutines.data.local
+package com.example.mvvmcoroutinesroomhiltsample.data.local
 
-import com.mindorks.example.coroutines.data.local.entity.User
+import com.example.mvvmcoroutinesroomhiltsample.data.local.entity.User
+import javax.inject.Inject
 
-class DatabaseHelperImpl(private val appDatabase: AppDatabase) : DatabaseHelper {
+class DatabaseHelperImpl @Inject constructor(private val appDatabase: AppDatabase) :
+    DatabaseHelper {
 
     override suspend fun getUsers(): List<User> = appDatabase.userDao().getAll()
 

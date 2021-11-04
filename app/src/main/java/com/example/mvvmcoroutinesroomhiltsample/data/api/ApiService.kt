@@ -1,6 +1,6 @@
-package com.mindorks.example.coroutines.data.api
+package com.example.mvvmcoroutinesroomhiltsample.data.api
 
-import com.mindorks.example.coroutines.data.api.model.ApiUser
+import com.example.mvvmcoroutinesroomhiltsample.data.model.ApiUser
 import retrofit2.http.GET
 
 interface ApiService {
