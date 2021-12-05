@@ -19,12 +19,10 @@ class HomeFragment : Fragment() {
 
     private val homeViewModel: HomeViewModel by viewModels()
     private lateinit var _binding: FragmentHomeBinding
-
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding
 
-    //private lateinit var viewModel: HomeViewModel
     private lateinit var adapter: ApiUserAdapter
 
     override fun onCreateView(
@@ -32,23 +30,10 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        /*homeViewModel =
-            ViewModelProvider(this,
-                ViewModelFactory(
-                    MainRepository(
-                        ApiHelperImpl(RetrofitBuilder.apiService),
-                        DatabaseHelperImpl(DatabaseBuilder.getInstance(activity?.applicationContext!!))
-                    )
-                )).get(HomeViewModel::class.java)*/
-
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
         setupUI()
         setupObserver()
-        /*val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })*/
         return root
     }
 
