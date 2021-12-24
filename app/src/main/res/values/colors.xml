@@ -16,4 +16,6 @@
 
 
     <color name="statusBarColor">#004d40</color>
+    <color name="l_grey">#ECECEC</color>
+    <color name="d_grey">#686868</color>
 </resources>
